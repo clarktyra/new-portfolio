@@ -324,11 +324,11 @@ hr {
 
 /* START ABOUT */
 .tm-about {
-  background: url('../images/about-bg.jpg');
-  background-size: cover;
+  background: url('../images/IMG_0463+3.jpg') no-repeat;
+  background-size: 40%;
   background-attachment: fixed;
-  background-position: center center;
-  padding-top: 60px;
+  background-position: left;
+  padding-top: 100px;
   padding-bottom: 100px;
 }
 /* END ABOUT */
