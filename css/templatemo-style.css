@@ -147,7 +147,7 @@ hr {
   padding-bottom: 10px;
 }
 .work-wrapper {
-  border: 1px solid #666;
+  /* border: 1px solid #666; */
   border-radius: 2px;
   text-align: center;
   padding: 80px 40px 80px 40px;
@@ -155,7 +155,7 @@ hr {
           transition: all 0.6s ease-in;
   color:white;
 }
-.work-wrapper:hover { border-color: #eb5424; }
+/* .work-wrapper:hover { border: 1px solid; border-color: grey; } */
 .work-wrapper .fa {
   color: white;
   font-size: 60px;
@@ -311,6 +311,11 @@ hr {
   font-weight: bold;
   display: inline-block;
   width: 90px;
+}
+.tm-info-label2 {
+  font-weight: bold;
+  display: inline-block;
+  width: 100px;
 }
 .tm-progress {
   background: #fff;
