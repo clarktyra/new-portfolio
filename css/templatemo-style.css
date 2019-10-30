@@ -3,8 +3,14 @@
 Ultra Profile
 
 https://templatemo.com/tm-464-ultra-profile
-
+31E6996
 */
+/*
+color yellow: #eb9224
+color blue: #1E6996
+color green: #19A55E
+*/
+
 
 body {
   background: #ffffff;
@@ -19,6 +25,7 @@ html, body {
 }
 h1,h2,h3 { font-weight: 300; }
 p { line-height: 28px; }
+.intro-paragraph{ color:white}
 hr {
   border-color: #f2f2f2;
   width: 100px;
@@ -81,7 +88,7 @@ hr {
 
 /* START HOME */
 .templatemo-home {
-  background: url('../images/home-bg.jpg');
+  background: url('../images/IMG_8508.jpeg');
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
@@ -101,7 +108,7 @@ hr {
  .tm-home-subtitle {
   text-transform: uppercase;
  }
-.tm-home-title { font-size: 60px; }
+.tm-home-title { font-size: 60px; color: white;}
 .tm-home-subtitle {
   color: #eb5424;
   font-weight: bold;
@@ -130,9 +137,10 @@ hr {
 .tm-padding-top-bottom-100 {
   padding-top: 100px;
   padding-bottom: 100px;
+  /* background-color: #1e6996; */
 }
 .tm-work-h3 {
-  color: #eb5424;
+  color: white;
   font-size: 20px;
   font-weight: bold;
   letter-spacing: 1px;
@@ -145,10 +153,11 @@ hr {
   padding: 80px 40px 80px 40px;
   -webkit-transition: all 0.6s ease-in;
           transition: all 0.6s ease-in;
+  color:white;
 }
 .work-wrapper:hover { border-color: #eb5424; }
 .work-wrapper .fa {
-  color: #888888;
+  color: white;
   font-size: 60px;
   padding-bottom: 40px;
 }
@@ -324,12 +333,13 @@ hr {
 
 /* START ABOUT */
 .tm-about {
-  background: url('../images/IMG_0463+3.jpg') no-repeat;
-  background-size: 40%;
+  /* background: url('../images/IMG_0463+3.jpg') no-repeat; */
+  /* background-size: 40%;
   background-attachment: fixed;
-  background-position: left;
+  background-position: center;
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 100px; */
+  background:#f8f8f8
 }
 /* END ABOUT */
 
@@ -342,6 +352,16 @@ hr {
   padding: 0;
   margin: 0;
 }
+#work1 {
+  background: #0a64a8
+}
+#work2 {
+  background: #eb5424;
+}
+#work3 {
+  background: #0a64a8
+}
+
 .tm-social .col-md-4 {
   padding: 0;
   margin: 0;
