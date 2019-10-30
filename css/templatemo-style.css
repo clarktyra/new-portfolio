@@ -32,7 +32,8 @@ hr {
   margin-bottom: 40px;
 }
 .title {
-  color: #eb5424;
+  color: rgb(48, 48, 48);
+
   font-size: 60px;
   padding-bottom: 40px;
   text-transform: uppercase;
@@ -117,20 +118,20 @@ hr {
   letter-spacing: 2px;
 }
 .tm-view-more-btn {
-  background: #eb5424;
-  color: #ffffff;
+  background: transparent;
+  color: white;
   border: none;
   border-radius: 2px;
   font-size: 20px;
   font-weight: 700;
   margin-top: 30px;
-  padding: 15px 50px;
+  padding: 15px 0px;
   -webkit-transition: all 0.6s ease-in;
           transition: all 0.6s ease-in;
 }
 .tm-view-more-btn:hover {
-  background: #ffffff;
-  color: #eb5424;
+  background: transparent;
+  color: #1E6996;
 }
 /* END HOME */
 
@@ -151,6 +152,14 @@ hr {
   /* border: 1px solid #666; */
   border-radius: 2px;
   text-align: center;
+  padding: 80px 40px 80px 40px;
+  -webkit-transition: all 0.6s ease-in;
+          transition: all 0.6s ease-in;
+  color:white;
+}
+.work-wrapper2 {
+  /* border: 1px solid #666; */
+  border-radius: 2px;
   padding: 80px 40px 80px 40px;
   -webkit-transition: all 0.6s ease-in;
           transition: all 0.6s ease-in;
@@ -257,7 +266,7 @@ hr {
   margin: 4px;
 }
 .filter-wrapper li a {
-  color: #999999;
+  color: white;
   padding: 8px 17px;
   display: block;
   text-decoration: none;
@@ -380,9 +389,9 @@ hr {
 .github:hover {
   background: #202020;
 }
-.github { background: #147e06; }
-.linkedin { background: #0a64a8; }
-.twitter { background: #55acee; }
+.github { background: #19A55E; }
+.linkedin { background: #1E6996; }
+.twitter { background: #eb5424; }
 .media {
   padding: 80px 40px 80px 40px;
   -webkit-transition: all 0.6s ease-in;
