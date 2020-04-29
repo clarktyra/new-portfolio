@@ -31,6 +31,9 @@ hr {
   width: 100px;
   margin-bottom: 40px;
 }
+#rnTitle{
+  color: white;
+}
 .title {
   color: rgb(48, 48, 48);
 
@@ -87,7 +90,9 @@ hr {
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus { background-color: transparent }
 /* END NAVIGATION */
-
+.works{
+  margin-top: 5px;
+}
 /* START HOME */
 .templatemo-home {
   background: url('../images/IMG_8508.jpeg');
@@ -136,6 +141,9 @@ hr {
 /* END HOME */
 
 /* START WORK */
+#work{
+  background-color: white
+}
 .tm-padding-top-bottom-100 {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -161,7 +169,7 @@ hr {
   background: #1E6996
 }
 #work2 {
-  background: #eb5424;
+  background: #1E6996;
 }
 #work3 {
   background: #1E6996
@@ -196,8 +204,12 @@ hr {
 
 /*movie*/
 #movie {
-  background: white;
-
+  background: #1E6996;
+}
+#movieCol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 /*movie*/
 
@@ -346,6 +358,9 @@ hr {
 /* END PORTFOLIO */
 
 /* START RESUME */
+#resume {
+  background-color: white
+}
 .tm-red-text { color: #eb5424; }
 .tm-info-label {
   font-weight: bold;
