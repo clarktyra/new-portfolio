@@ -211,6 +211,20 @@ hr {
   flex-direction: column;
   align-items: center;
 }
+#originAppStoreImage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+@media screen and (max-width:1000px){
+  #originAppStoreImage {
+    height: 225px;
+    margin-left: -8px;    
+    display: block;
+  }
+}
 /*movie*/
 
 /* START PORTFOLIO */
